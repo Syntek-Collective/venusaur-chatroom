@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A real-time chat application built by a three-person team in a 10-day sprint.",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently -n client,server -c blue,green \"npm:dev:client\" \"npm:dev:server\"",
@@ -20,14 +21,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kanamija/venusaur-chatroom.git"
+    "url": "git+https://github.com/Syntek-Collective/venusaur-chatroom.git"
   },
-  "keywords": [],
+  "keywords": [
+    "chat",
+    "real-time",
+    "socket.io",
+    "express",
+    "react",
+    "typescript",
+    "mongodb",
+    "stripe"
+  ],
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/Kanamija/venusaur-chatroom/issues"
+    "url": "https://github.com/Syntek-Collective/venusaur-chatroom/issues"
   },
-  "homepage": "https://github.com/Kanamija/venusaur-chatroom#readme",
+  "homepage": "https://github.com/Syntek-Collective/venusaur-chatroom#readme",
   "devDependencies": {
     "concurrently": "^10.0.5",
     "prettier": "^3.9.9"
